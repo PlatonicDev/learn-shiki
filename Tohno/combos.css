@@ -1,0 +1,26 @@
+body {
+    background-color: lightslategrey;
+}
+
+.combo-videos {
+    width: 640px;
+    height: 240px;
+    position: relative;
+}
+
+.headtext {
+    text-align: left;
+    display: inline;
+}
+
+.header-container {
+    border: 1px red;
+    border-style: solid;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#combos-explanations {
+    text-align: center;
+}

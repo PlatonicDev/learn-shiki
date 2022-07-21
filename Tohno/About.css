@@ -1,0 +1,51 @@
+body {
+    background-color: lightslategrey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#shiki {
+    position: relative;
+    max-width: 960px;
+    margin: auto;
+    overflow: auto;
+    border: 1px solid steelblue;
+}
+
+#shiki-img {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    float: right;
+}
+
+#nav {
+    font-size: large;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    background-color: lightslategray;
+}
